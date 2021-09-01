@@ -15,6 +15,7 @@ public class FibonacciSeries {
         int number2 = 1;
 
         int fibonacci = 1;
+
         if (number == 0 || number == 1)
             return fibonacci;
 
