@@ -1,3 +1,5 @@
+import java.util.concurrent.Callable;
+
 public class FindLoops {
 
     public static void main(String[] args) {
@@ -5,7 +7,6 @@ public class FindLoops {
     }
 
     public static boolean findLoops(LinkedListImpl linkedList){
-
 
         return true;
     }

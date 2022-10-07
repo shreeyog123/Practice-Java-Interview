@@ -23,4 +23,13 @@ public class LinkedListNew {
 
         return list;
     }
+
+    public static void main(String[] args) {
+
+        LinkedListNew ln = new LinkedListNew();
+
+        LinkedListNew.insert(ln,1);
+        LinkedListNew.insert(ln,2);
+
+    }
 }

@@ -1,6 +1,14 @@
 package HackerEarth;
 
 public class Employee {
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "empName='" + empName + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
+
     public Employee(String empName, int salary) {
         this.empName = empName;
         this.salary = salary;
